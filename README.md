@@ -97,7 +97,7 @@ il routing diretto avviene in sei passaggi
 nel caso in cui il mobile host si sposti in un'altra foreign network, il foreign agent diventa anchor foreign agent , e il foreign agent della nuova rete deve comunicare a lui il care-of-address del mobile host.
 I pacchetti verranno comunque inoltrati prima all’anchor foreign agent .
 
-12)
+12)..
 L’obbiettivo della mobile host è quella dfi mantenere la connessione TCP tra due enti che comunicano.
 Agent discovery: quando un mobile host si sposta in una foreign network, questo deve registrarsi presso il nuovo foreign agent in modo da capire che si trovi inj una rete differente , ciò avviene mediante l’invio di agent discovery message inviati dall’Home Agent o dal Foreign Agent.
 La registrazione: una volta che il mobile host riceve il care-of address, questo deve essere associato al suo home address registrandolo presso il suo home agent.
